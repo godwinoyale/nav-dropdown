@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    width: 100vh;
+    background-color:hsl(0, 0%, 98%);
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    margin: 5px 50px 0px 50px;
+}
+.navigation .logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #000;
+    margin-right: 25px;
+}
+.navigation .menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.navigation .login-section ul{
+    display: flex;
+    list-style-type: none;
+}
+.navigation a{
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%)
+    
+}
+.navigation .menu  ul li{
+    margin: 15px;
+    
+}
+
+.navigation .login-section ul li{
+    display: flex;
+    
+}
